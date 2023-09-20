@@ -58,6 +58,32 @@
       "IsFilterable": false,
       "IsSortable": false,
       "OrderIndex": 2
+    },
+    {
+      "Id": 9,
+      "GlobalId": "887a77b5-87ee-4ecc-bcfa-393e5c571224",
+      "EntityVersionId": 5,
+      "Name": "date",
+      "Type": {
+        "Id": "Date",
+        "Name": "Date",
+        "InputType": {
+          "Id": "Date",
+          "Name": "Date",
+          "ValueType": 3,
+          "Length": 3,
+          "Icon": "calendar_today"
+        }
+      },
+      "DefaultValue": null,
+      "NullRecordsValue": null,
+      "EntityVersionRefId": null,
+      "IsDeleted": false,
+      "IsRequired": false,
+      "IsSearchable": false,
+      "IsFilterable": false,
+      "IsSortable": false,
+      "OrderIndex": 3
     }
   ],
   "RolePermissions": {
@@ -240,8 +266,8 @@
   "PageUiLibrary": 2,
   "CreatedDate": "2023-09-20T11:35:15.5866667",
   "CreatedBy": "SuperUser Account",
-  "LastModifiedBy": "",
-  "LastModifiedOn": null,
+  "LastModifiedBy": "SuperUser Account",
+  "LastModifiedOn": "2023-09-20T11:56:56.2166667",
   "Icon": "table",
   "Type": 0,
   "BuiltInType": null,

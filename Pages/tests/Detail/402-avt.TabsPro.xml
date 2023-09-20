@@ -1,4 +1,4 @@
-<module type="avtTabsPro" version="05.25.10.00">
+<module type="avtTabsPro" version="05.25.17.00">
     <contentKey />
     <moduleID>402</moduleID>
     <alignment />
@@ -26,7 +26,7 @@
     <tabmodulesettings />
     <definition>avt.TabsPro</definition>
     <moduledefinition>avt.TabsPro</moduledefinition>
-    <content type="avtTabsPro" version="05.25.10.00"><![CDATA[&lt;TabsPro&gt;
+    <content type="avtTabsPro" version="05.25.17.00"><![CDATA[&lt;TabsPro&gt;
   &lt;TabsLayout&gt;HorizontalTop&lt;/TabsLayout&gt;
   &lt;TabsFullWidth&gt;False&lt;/TabsFullWidth&gt;
   &lt;IsCollapsible&gt;False&lt;/IsCollapsible&gt;
@@ -71,7 +71,7 @@
       &lt;IconUrl /&gt;
       &lt;IconClass /&gt;
       &lt;DisplayAccordion&gt;False&lt;/DisplayAccordion&gt;
-      &lt;ViewOrder&gt;0&lt;/ViewOrder&gt;
+      &lt;ViewOrder&gt;1&lt;/ViewOrder&gt;
       &lt;TabUrl /&gt;
       &lt;StackDirection&gt;Vertical&lt;/StackDirection&gt;
       &lt;DefaultTab&gt;True&lt;/DefaultTab&gt;
@@ -81,6 +81,12 @@
         &lt;en-US&gt;Details&lt;/en-US&gt;
       &lt;/Localization&gt;
       &lt;Modules&gt;
+        &lt;Module&gt;
+          &lt;ModuleId&gt;401&lt;/ModuleId&gt;
+          &lt;ModuleTitle&gt;Details Form&lt;/ModuleTitle&gt;
+          &lt;ModuleOrder&gt;1&lt;/ModuleOrder&gt;
+          &lt;DisplayTitle&gt;False&lt;/DisplayTitle&gt;
+        &lt;/Module&gt;
         &lt;Module&gt;
           &lt;ModuleId&gt;401&lt;/ModuleId&gt;
           &lt;ModuleTitle&gt;Details Form&lt;/ModuleTitle&gt;

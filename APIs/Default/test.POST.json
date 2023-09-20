@@ -34,6 +34,15 @@
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": []
+    },
+    {
+      "Name": "date",
+      "IsDeleted": false,
+      "IsEnabled": false,
+      "OrderIndex": 2,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -43,7 +52,8 @@
       "Parameters": {
         "OutputToken": "CreatedRecordId",
         "name": "[name]",
-        "email": "[email]"
+        "email": "[email]",
+        "date": "[date]"
       },
       "IsDisabled": false,
       "ExecutionType": "OnExecute",
@@ -77,6 +87,10 @@
           {
             "name": "Id",
             "value": "[CreatedRecordId]"
+          },
+          {
+            "name": "date",
+            "value": "[CreatedRecord:date]"
           },
           {
             "name": "name",

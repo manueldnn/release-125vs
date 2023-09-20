@@ -54,6 +54,10 @@
             "value": "[RecordId]"
           },
           {
+            "name": "date",
+            "value": "[Record:date]"
+          },
+          {
             "name": "name",
             "value": "[Record:name]"
           },
